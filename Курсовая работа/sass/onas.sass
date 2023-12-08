@@ -1,0 +1,104 @@
+@import 'root/mix'
+
+h1
+    color: $h1
+    font-size: 4rem
+    font-style: normal
+    font-weight: 700
+    margin-bottom: 3rem
+    padding-left: 1rem
+    margin-left: 5rem
+    letter-spacing: -.02em
+    line-height: 1.1
+
+h2
+    color: $black_blue
+    font-size: 2.5rem
+    font-style: normal
+    font-weight: 700
+    line-height: normal
+    letter-spacing: 0.0625rem
+    margin-bottom: 2rem
+    padding-left: 9rem
+    
+h3
+    color: $black
+    font-size: 1.5rem
+    font-style: normal
+    font-weight: 600
+    line-height: normal
+    letter-spacing: 0.0625rem
+    padding-left: 10rem
+    padding-right: 10rem
+    margin-bottom: 2.5rem
+
+.header
+    width: 100%
+    height: 10.6rem
+    background-color: $blue
+    margin-bottom: 2rem
+    &_logo
+        margin-left: 3.125rem
+        background-size: cover
+        background-position: center
+        &_img
+            width: 14rem
+            height: 4.6875rem
+            margin-left: 3.125rem
+            margin-top: 2rem
+
+.header_text__hight
+    position: absolute
+    top: 0
+    left: 0
+
+.img_logo
+    width: 15.3125rem
+    height: 11rem
+
+.header_btn:hover
+    background-color: #dcdcdc
+
+.header_btn:active
+    transform: translateY(-0.0625rem)
+
+.first_section
+    height: 85rem
+
+@media (max-width: 1920px)
+    html
+        font-size: 14px
+
+@media (max-width: 1500px)
+    html
+        font-size: 12px
+
+@media (max-width: 1250px)
+    html
+        font-size: 10px
+
+@media (max-width: 1024px)
+    html
+        font-size: 9px
+
+@media (max-width: 768px)
+    html
+        font-size: 6px
+
+@media (max-width: 500px)
+    html
+        font-size: 5px
+    .first_section
+        height: 95rem
+
+@media (max-width: 376px)
+    html
+        font-size: 4px
+    .first_section
+        height: 93rem
+
+@media (max-width: 321px)
+    html
+        font-size: 3px
+    .first_section
+        height: 80rem
